@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-// import './RBNavbar.css';
+import './RBNavbar.css';
 
 const RBNavbar = () => {
     return (
-        <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">
+        <Navbar expand="lg" className="navbar">
+            <Navbar.Brand href="#home" className="navbar-brand">
                 {/* <img
                     src="/logo.svg"
                     width="30"
@@ -17,18 +17,18 @@ const RBNavbar = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="justify-content-end" activeKey="/home">
-                    <Nav.Item>
-                        <Nav.Link href="/home">Home</Nav.Link>
+                <Nav className="justify-content-end">
+                    <Nav.Item >
+                        <Nav.Link href="/home" className='navbar-link'>Home</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="/about">About</Nav.Link>
+                        <Nav.Link eventKey="/about" className='navbar-link'>About</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="/projects">Projects</Nav.Link>
+                        <Nav.Link eventKey="/projects" className='navbar-link'>Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="/contact" >Contact</Nav.Link>
+                        <Nav.Link eventKey="/contact" className='navbar-link'>Contact</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Navbar.Collapse>
