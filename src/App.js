@@ -1,14 +1,18 @@
 import React from 'react';
-import RBNavbar from './components/RBNavbar/RBNavbar';
 import Intro from './components/Intro/Intro';
+import RBNavbar from './components/RBNavbar/RBNavbar';
 
 const App = () => {
-  return (
-    <>
-    <Intro />
-    <RBNavbar />
-    </>
-  );
+
+
+    return (
+      <>
+        <RBNavbar />
+        <Intro />
+
+      </>
+    );
+  
 }
 
 export default App;
