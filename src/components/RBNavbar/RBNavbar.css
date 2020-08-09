@@ -1,7 +1,7 @@
-.navbar {
-  background-color: #140033;
-  color: #f0e6ff;
+/* Customized Navbar Style using generator from https://work.smarchal.com/twbscolor/ to create a custom color palette with my brand colors */
 
+.navbar {
+  background-color: #140033;  
 }
 .navbar .navbar-brand {
   color: #f0e6ff;
