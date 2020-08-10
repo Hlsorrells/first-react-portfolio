@@ -15,7 +15,7 @@
         "id": 2,
         "name": "School Spot",
         "deployed": "https://desolate-lowlands-55237.herokuapp.com/",
-        "repo": "https://github.com/Hlsorrells/SchoolSpot",
+        "repo": "https://github.com/Hlsorrells/School-Spot",
         "image": "schoolSpot",
         "stack": [
             "JavaScript", "Express", "Node", "MySQL", "Sequelize"
