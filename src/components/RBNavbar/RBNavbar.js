@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+// original brand filename = logo_TeloletOmWebfont55px_320px70px_white
+import logo from '../../logo_white.svg'
 import './RBNavbar.css';
 
 const styles = {
@@ -15,11 +17,11 @@ const RBNavbar = () => {
     return (
         <Navbar className="navbar" fixed='top'>
             <Navbar.Brand href="#home" className="navbar-brand">
-                {/* <img
-                    src="./logo.svg"
+                <img
+                    src={logo}
                     className="d-inline-block align-top"
                     alt="logo"
-                /> */}
+                />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
