@@ -1,7 +1,7 @@
 import React from 'react';
 import Intro from './components/Intro/Intro';
 import RBNavbar from './components/RBNavbar/RBNavbar';
-import Projects from './components/Projects/Projects';
+import Projects from './components/ProjectContainer/ProjectContainer';
 
 const App = () => {
 
