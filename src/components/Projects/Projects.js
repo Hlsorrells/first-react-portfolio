@@ -11,12 +11,12 @@ class Projects extends Component {
         projects
     };
 
-    // Map over this.state.projects and render a ProjectCard component for each project object
     render() {
         return (
             <Wrapper>
                 <Title id="projects">My Projects</Title>
                 <CardDeck>
+                {/* Map over this.state.projects and render a ProjectCard component for each project object */}
                     {this.state.projects.map(project => (
                         <ProjectCard
                             key={project.id}
