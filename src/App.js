@@ -1,15 +1,13 @@
 import React from 'react';
-import Intro from './components/Intro/Intro';
 import RBNavbar from './components/RBNavbar/RBNavbar';
-import Projects from './components/ProjectContainer/ProjectContainer';
+import PortfolioContainer from './components/PortfolioContainer/PortfolioContainer';
 
 const App = () => {
 
   return (
     <>
       <RBNavbar />
-      <Intro />
-      <Projects />
+      <PortfolioContainer />
     </>
   );
 
