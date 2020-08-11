@@ -1,0 +1,39 @@
+.card {
+    background: #f0e6ff;
+    border-radius: 2px;
+    height: max-content;
+    width: 325px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 6px 9px #999, 0 6px 9px #999;
+    text-align: left;
+  }
+  
+  .card-img-top {
+    text-align: center;
+    overflow: hidden;
+    background:#c299ff;
+    height: 20%;
+  }
+  
+  .card-body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 15px;
+  }
+
+  .card-header {
+    text-align: center;
+    color: #140033;
+    font-weight: bolder;
+  }
+  
+  .card-title {
+    text-align: center;
+    color: #140033;
+  }
+  
+  #certCard {
+    height: max-content;
+
+  }
