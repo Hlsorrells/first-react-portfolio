@@ -1,0 +1,17 @@
+section {
+    width: 100%;
+    min-height: fit-content;
+    margin-bottom: 50px;
+}
+
+section > h2, h5 {
+    text-align: center;
+    color: #140033;
+}
+
+section > .card-deck {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    min-height: max-content;
+}
