@@ -47,7 +47,7 @@ class About extends Component {
         <section id="education">
           <h2>Education and Certifications</h2>
           <h5>Here are my formal educational degrees and certifications</h5>
-          <CardDeck>
+          <CardDeck id="certification">
             {/* Map over this.state.certifications and render a Certification component for each section*/}
             {this.state.certifications.map(certificate => (
               <CertificationCard
@@ -64,9 +64,6 @@ class About extends Component {
           </CardDeck>
         </section>
 
-        {/*         
-        <h3>Achievements and Honors</h3>
-            <h5>Achievements, awards and honors, and other cool stuff that I have done</h5> */}
       </Wrapper>
     );
   }

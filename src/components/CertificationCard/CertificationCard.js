@@ -14,14 +14,15 @@ const CertificationCard = (props) => {
   }
 
   return (
-    <Card id="certCard">
-      <Card.Img variant="top" alt={props.college} src={imageObj[props.image]} />
-      <Card.Body>
-        <Card.Header as="h5">{props.college}</Card.Header>
-        <Card.Title>{props.type}</Card.Title>
-        <Card.Subtitle>{props.degree}</Card.Subtitle>
-        <Card.Text>Completed: {props.date}</Card.Text>
-        <Card.Text>GPA: {props.gpa}</Card.Text>
+    <Card className="mx-auto" id="certCard">
+      <Card.Img id="certImg" variant="top" alt={props.college} src={imageObj[props.image]} />
+      <Card.Body id="certBody">
+        <Card.Header as="h5" id="certHead">{props.type}</Card.Header>
+        {/* <Card.Title id="certTitle">{props.type}</Card.Title> */}
+        <Card.Subtitle id="certSubT">{props.degree}</Card.Subtitle>
+        <Card.Text id="certHonor">{props.honors}</Card.Text>
+        <Card.Text id="certDate">Completed: {props.date}</Card.Text>
+        <Card.Text id="certGPA">GPA: {props.gpa}</Card.Text>
       </Card.Body>
     </Card>
   )

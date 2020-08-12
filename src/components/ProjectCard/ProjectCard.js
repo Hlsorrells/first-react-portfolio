@@ -13,14 +13,13 @@ const ProjectCard = (props) => {
   }
 
   return (
-    <Card>
-      <Card.Img variant="top" alt={props.name} src={imageObj[props.image]} />
-      <Card.Body>
-        <Card.Title><strong>{props.name}</strong></Card.Title>
+    <Card id="projCard">
+      <Card.Img id="projImg" variant="top" alt={props.name} src={imageObj[props.image]} />
+      <Card.Body id="projBody">
+        <Card.Title id="projTitle"><strong>{props.name}</strong></Card.Title>
         <Card.Subtitle className="mb-2 text-muted">
           {props.subtitle}
         </Card.Subtitle>
-        {/* <Card.Text>{props.description}</Card.Text> */}
         <Card.Link href={props.deployed}>Live App</Card.Link>
         <Card.Link href={props.repo} id="repo">Code Repo</Card.Link>
       </Card.Body>

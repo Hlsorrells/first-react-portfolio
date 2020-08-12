@@ -1,4 +1,4 @@
-.card {
+#projCard {
   background: #f0e6ff;
   border-radius: 2px;
   height: 325px;
@@ -9,20 +9,20 @@
   text-align: left;
 }
 
-.card > img {
+#projImg {
   text-align: center;
   overflow: hidden;
   background:#c299ff;
   height: 60%;
 }
 
-.card-body {
+#projBody {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 15px;
 }
 
-.card-title {
+#projTitle {
   text-align: center;
   color: #140033;
 }
