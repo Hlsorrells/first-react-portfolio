@@ -1,20 +1,24 @@
 import React, { Component } from "react";
 import CardDeck from 'react-bootstrap/CardDeck';
+import Container from 'react-bootstrap/Container';
 import Wrapper from "../Wrapper/Wrapper";
 import Title from "../Title/Title";
 import CertificationCard from "../CertificationCard/CertificationCard";
 import Skills from "../Skills/Skills";
+import Honor from "../Honor/Honor";
 
 // Import data files
 import certifications from "../../assets/certifications.json";
 import skills from "../../assets/skills.json";
+import honors from "../../assets/honors.json";
 import "./AboutContainer.css";
 
 class About extends Component {
   // Setting this.state.certifications to the certifications json array
   state = {
     certifications,
-    skills
+    skills,
+    honors
   };
 
   render() {
@@ -48,7 +52,7 @@ class About extends Component {
           <h2>Education and Certifications</h2>
           <h5>Here are my formal educational degrees and certifications</h5>
           <CardDeck id="certification">
-            {/* Map over this.state.certifications and render a Certification component for each section*/}
+            {/* Map over this.state.certifications and render a Certification component for each certification*/}
             {this.state.certifications.map(certificate => (
               <CertificationCard
                 key={certificate.id}
@@ -62,6 +66,22 @@ class About extends Component {
               />
             ))}
           </CardDeck>
+        </section>
+
+        <section id="honors">
+          <h2>Achievements and Honors</h2>
+          <h5>Achievements, awards and honors, and other cool stuff that I have done</h5>
+          <Container fluid >
+            {/* Map over this.state.honors and render a Honor component for each award or honor*/}
+            {this.state.honors.map(honor => (
+              <Honor
+                key={honor.id}
+                title={honor.title}
+                note={honor.note}
+                date={honor.date}
+              />
+            ))}
+          </Container>
         </section>
 
       </Wrapper>

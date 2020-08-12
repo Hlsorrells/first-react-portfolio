@@ -17,3 +17,7 @@ section > .card-deck {
     margin-right: 1rem;
     justify-content: center;
 }
+
+.container-fluid {
+    background-color: #e0ccff;
+}
