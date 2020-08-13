@@ -9,7 +9,6 @@ import profPic from "../../assets/images/heatherSorrellsProfilePic.PNG";
 import { MdEmail } from "react-icons/md";
 import { GoMarkGithub } from "react-icons/go";
 import { GrLinkedin } from "react-icons/gr";
-import { FaReact } from "react-icons/fa"
 
 const Contact = () => {
   let profilePic = profPic
