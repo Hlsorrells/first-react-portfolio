@@ -1,12 +1,19 @@
 import React from 'react';
-import Typed from 'react-typed';
-import './Intro.css';
-import Particle from '../Particles/Particles';
+import Particles from 'react-particles-js';
 
-const Intro = () => {
+const Particle = () => {
+
     return (
-        <header id='home' className='intro'>
-            <Particle
+        <div
+            style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%"
+            }}
+        >
+            <Particles
                 params={{
                     "particles": {
                         "number": {
@@ -117,17 +124,8 @@ const Intro = () => {
                     },
                     "retina_detect": true
                 }} />
-            <div className='container'>
-                <h1 className='intro-title'>Hello, I am Heather Sorrells</h1>
-                <p className='intro-subtitle'>
-                    <span className='text-slider-items'></span>
-                    <strong className='text-slider'>
-                        <Typed strings={['Front End Developer', 'Back End Developer', 'Full Stack Developer', 'Software Engineer']} typeSpeed={80} backDelay={1100} backSpeed={30} loop />
-                    </strong>
-                </p>
-            </div>
-        </header>
-    )
+        </div>
+    );
 }
 
-export default Intro;
+export default Particle;
