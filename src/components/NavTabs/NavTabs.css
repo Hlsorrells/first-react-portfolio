@@ -25,6 +25,9 @@
   border-radius: .25rem;
   margin: 0 0.25em;
 }
+.nav-link.active {
+  color: #c299ff;
+}
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
   color: #c299ff;
@@ -57,6 +60,10 @@
 }
 .navbar .navbar-link:hover {
   color: #c299ff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #f0e6ff;
 }
 
 @media (max-width: 575px) {
