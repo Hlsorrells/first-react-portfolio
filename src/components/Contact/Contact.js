@@ -39,7 +39,7 @@ const Contact = () => {
             </Row>
           </Col>
           <Col xs={12} md={2} className="image-content-profile">
-            <img alt="Heather Sorrells image" src={profilePic} />
+            <img alt="Heather Sorrells" src={profilePic} />
           </Col>
         </Row>
       </Container>
