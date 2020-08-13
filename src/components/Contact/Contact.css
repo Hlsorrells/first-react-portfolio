@@ -1,0 +1,55 @@
+#profile {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+#profile > h2 {
+    color: #140033;
+    text-align: center;
+}
+
+.main-content-profile > .row > h5 {
+    color: #140033;
+    text-align: center;
+}
+
+.software-skill-inline {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;    margin-right: 20px;
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    height: 40px;
+}
+
+.software-skill-inline > a {
+    color: #140033;
+    font-size: x-large;
+}
+  
+.software-skill-inline > a > .icon {
+    color: #140033;
+}
+  
+.software-skill-inline > a > .icon:hover {
+    color: #868e96;
+}
+
+.main-content-profile > .row {
+    padding: 10px;
+}
+
+.image-content-profile {
+    vertical-align: middle;
+}
+
+.image-content-profile > img {
+    height: 200px;
+    width: 200px;
+    border-style: groove;
+    border-width: 15px;
+    border-color: #c299ff;
+    margin: 10px;
+}
