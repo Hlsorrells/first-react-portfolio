@@ -1,9 +1,11 @@
 import React from 'react';
 import Typed from 'react-typed';
-import './Intro.css';
-import Particle from '../Particles/Particles';
+import Particle from '../../Particles/Particles';
 
-const Intro = () => {
+// Import CSS styles for component
+import './Home.css';
+
+function Intro() {
     return (
         <header id='home' className='intro'>
             <Particle
