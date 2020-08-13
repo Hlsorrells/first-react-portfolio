@@ -11,7 +11,6 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div>
         <NavTabs />
         <Switch>
           <Route exact path='/' component={Home} />
@@ -21,7 +20,6 @@ function App() {
           {/* <Route component={NoMatch} /> */}
         </Switch>
         <Footer />
-      </div>
     </BrowserRouter>
   );
 }
