@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a1479e1.chunk.css",
+    "main.js": "/static/js/main.070ead53.chunk.js",
+    "main.js.map": "/static/js/main.070ead53.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c52b6ca0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c52b6ca0.js.map",
+    "static/js/2.db46ebd2.chunk.js": "/static/js/2.db46ebd2.chunk.js",
+    "static/js/2.db46ebd2.chunk.js.map": "/static/js/2.db46ebd2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1b5b737a096d1d34b6e776b4adfb23f7.js": "/precache-manifest.1b5b737a096d1d34b6e776b4adfb23f7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1a1479e1.chunk.css.map": "/static/css/main.1a1479e1.chunk.css.map",
+    "static/js/2.db46ebd2.chunk.js.LICENSE.txt": "/static/js/2.db46ebd2.chunk.js.LICENSE.txt",
+    "static/media/SchoolSpot.gif": "/static/media/SchoolSpot.fd3ecc54.gif",
+    "static/media/casper-college.jpg": "/static/media/casper-college.d8d33cdf.jpg",
+    "static/media/drinkin-bad.gif": "/static/media/drinkin-bad.e3adf082.gif",
+    "static/media/heatherSorrellsProfilePic.PNG": "/static/media/heatherSorrellsProfilePic.432a0add.PNG",
+    "static/media/logo_white.svg": "/static/media/logo_white.224ea6c3.svg",
+    "static/media/megabites.gif": "/static/media/megabites.86238473.gif",
+    "static/media/uncc.jpeg": "/static/media/uncc.2f007cae.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c52b6ca0.js",
+    "static/js/2.db46ebd2.chunk.js",
+    "static/css/main.1a1479e1.chunk.css",
+    "static/js/main.070ead53.chunk.js"
+  ]
+}
