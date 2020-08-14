@@ -5,6 +5,7 @@ import Home from './components/pages/HomeContainer/Home';
 import About from './components/pages/AboutContainer/About';
 import Projects from './components/pages/ProjectContainer/Projects';
 import Contact from './components/pages/Contact/Contact';
+import NoMatch from './components/NoMatch/NoMatch';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           <Route exact path='/about' component={About} />
           <Route exact path='/projects' component={Projects} />
           <Route exact path='/contact' component={Contact} />
-          {/* <Route component={NoMatch} /> */}
+          <Route component={NoMatch} />
         </Switch>
         <Footer />
     </BrowserRouter>
